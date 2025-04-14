@@ -3,6 +3,13 @@ if SHIELD_CALDERA_LEFT
 config ZMK_KEYBOARD_NAME
     default "Caldera"
 
+endif
+
+if SHIELD_CALDERA_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Caldera"
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
